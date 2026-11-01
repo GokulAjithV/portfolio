@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&amp;family=Manrope:wght@700&amp;display=swap');
+    html, svg { margin: 0; display: block; background: #131211; }
+    .title { font: 700 18px Manrope, sans-serif; fill: #ece9e2; }
+    .caption { font: 400 14px 'JetBrains Mono', monospace; fill: #a39e95; }
+    .label { font: 400 14px 'JetBrains Mono', monospace; }
+    .note { fill: #a39e95; }
+  </style>
+  <defs>
+    <marker id="head" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#8a8479" />
+    </marker>
+    <marker id="head-accent" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#f0884a" />
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#131211" />
+  
+    <rect x="16" y="24" width="228" height="420" rx="12" fill="none" stroke="#3d3935" stroke-width="1.5" stroke-dasharray="6 5" />
+    <text x="30" y="45" class="label" fill="#a39e95">crease-lens (React)</text>
+    <rect x="336" y="24" width="308" height="520" rx="12" fill="none" stroke="#3d3935" stroke-width="1.5" stroke-dasharray="6 5" />
+    <text x="350" y="45" class="label" fill="#a39e95">crease-brain (FastAPI)</text>
+    <rect x="30" y="56" width="200" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="44" y="90" class="title">Scorer</text>
+    <text x="44" y="112" class="caption">ball-by-ball entry</text>
+    <rect x="30" y="156" width="200" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="44" y="190" class="title">Viewers</text>
+    <text x="44" y="212" class="caption">live scoreboard</text>
+    <rect x="30" y="256" width="200" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="44" y="290" class="title">Coach or captain</text>
+    <text x="44" y="312" class="caption">scouting chat</text>
+    <rect x="30" y="356" width="200" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="44" y="390" class="title">Player</text>
+    <text x="44" y="412" class="caption">profile photo</text>
+    <rect x="350" y="56" width="280" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="364" y="90" class="title">Ball and match APIs</text>
+    <text x="364" y="112" class="caption">record, undo, scorecard</text>
+    <rect x="350" y="156" width="280" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="364" y="190" class="title">WebSocket rooms</text>
+    <text x="364" y="212" class="caption">one room per match</text>
+    <rect x="350" y="256" width="280" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="364" y="290" class="title">AI scouting + summaries</text>
+    <text x="364" y="312" class="caption">SQL-aggregated context</text>
+    <rect x="350" y="356" width="280" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="364" y="390" class="title">Avatar pipeline</text>
+    <text x="364" y="412" class="caption">validate, strip EXIF, WebP</text>
+    <rect x="350" y="456" width="280" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="364" y="490" class="title">Kafka log handler</text>
+    <text x="364" y="512" class="caption">trace ID + telemetry</text>
+    <rect x="750" y="56" width="220" height="226" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="764" y="165" class="title">PostgreSQL</text>
+    <text x="764" y="187" class="caption">Supabase</text>
+    <rect x="750" y="292" width="220" height="62" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="764" y="319" class="title">Gemini</text>
+    <text x="764" y="341" class="caption">gemini-2.5-flash</text>
+    <rect x="750" y="366" width="220" height="66" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="764" y="395" class="title">AWS S3</text>
+    <text x="764" y="417" class="caption">avatar images</text>
+    <rect x="750" y="456" width="220" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="764" y="490" class="title">SENTRI</text>
+    <text x="764" y="512" class="caption">central log triage</text>
+    <polyline points="230,94 350,94" fill="none" stroke="#f0884a" stroke-width="2"  marker-end="url(#head-accent)" />
+    <polyline points="490,132 490,156" fill="none" stroke="#f0884a" stroke-width="2"  marker-end="url(#head-accent)" />
+    <polyline points="350,194 230,194" fill="none" stroke="#f0884a" stroke-width="2"  marker-end="url(#head-accent)" />
+    <polyline points="630,94 750,94" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="230,294 350,294" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="630,272 750,272" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="630,320 750,320" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="230,394 350,394" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="630,394 750,394" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="630,494 750,494" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <text x="290" y="86" text-anchor="middle" class="label note">REST</text>
+    <text x="690" y="86" text-anchor="middle" class="label note">writes</text>
+    <text x="290" y="184" text-anchor="middle" class="label note">live push</text>
+    <text x="290" y="286" text-anchor="middle" class="label note">REST</text>
+    <text x="690" y="264" text-anchor="middle" class="label note">stats</text>
+    <text x="690" y="312" text-anchor="middle" class="label note">context</text>
+    <text x="290" y="386" text-anchor="middle" class="label note">upload</text>
+    <text x="690" y="386" text-anchor="middle" class="label note">WebP</text>
+    <text x="690" y="486" text-anchor="middle" class="label note">Kafka</text>
+</svg>

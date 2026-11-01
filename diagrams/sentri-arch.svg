@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="556" viewBox="0 0 1000 556">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&amp;family=Manrope:wght@700&amp;display=swap');
+    html, svg { margin: 0; display: block; background: #131211; }
+    .title { font: 700 18px Manrope, sans-serif; fill: #ece9e2; }
+    .caption { font: 400 14px 'JetBrains Mono', monospace; fill: #a39e95; }
+    .label { font: 400 14px 'JetBrains Mono', monospace; }
+    .note { fill: #a39e95; }
+  </style>
+  <defs>
+    <marker id="head" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#8a8479" />
+    </marker>
+    <marker id="head-accent" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#f0884a" />
+    </marker>
+  </defs>
+  <rect width="1000" height="556" fill="#131211" />
+  
+    <rect x="16" y="128" width="954" height="122" rx="12" fill="none" stroke="#3d3935" stroke-width="1.5" stroke-dasharray="6 5" />
+    <text x="220" y="149" class="label" fill="#a39e95">Triage engine (Kafka consumer group)</text>
+    <rect x="16" y="300" width="756" height="126" rx="12" fill="none" stroke="#f0884a" stroke-width="1.5" stroke-dasharray="6 5" />
+    <text x="220" y="321" class="label" fill="#f0884a">LangGraph RAG agent</text>
+    <rect x="30" y="24" width="200" height="72" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="44" y="56" class="title">Your service</text>
+    <text x="44" y="78" class="caption">triage-logger SDK</text>
+    <rect x="270" y="24" width="180" height="72" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="284" y="56" class="title">Kafka topic</text>
+    <text x="284" y="78" class="caption">JSON log events</text>
+    <rect x="30" y="160" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="44" y="194" class="title">Filter severity</text>
+    <text x="44" y="216" class="caption">ERROR, WARN</text>
+    <rect x="220" y="160" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="234" y="194" class="title">Group repeats</text>
+    <text x="234" y="216" class="caption">stack-trace hash</text>
+    <rect x="410" y="160" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="424" y="194" class="title">Route to owner</text>
+    <text x="424" y="216" class="caption">by service</text>
+    <rect x="600" y="160" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="614" y="194" class="title">Sign magic link</text>
+    <text x="614" y="216" class="caption">expiring JWT</text>
+    <rect x="790" y="160" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="804" y="194" class="title">Alert owner</text>
+    <text x="804" y="216" class="caption">Slack + Email</text>
+    <rect x="790" y="332" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="804" y="366" class="title">Engineer</text>
+    <text x="804" y="388" class="caption">React chat</text>
+    <rect x="600" y="332" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="614" y="366" class="title">Retrieve logs</text>
+    <text x="614" y="388" class="caption">service + trace</text>
+    <rect x="410" y="332" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="424" y="366" class="title">Retrieve code</text>
+    <text x="424" y="388" class="caption">vector search</text>
+    <rect x="220" y="332" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="234" y="366" class="title">Grade context</text>
+    <text x="234" y="388" class="caption">score 0-100</text>
+    <rect x="30" y="332" width="166" height="76" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="44" y="366" class="title">Write RCA</text>
+    <text x="44" y="388" class="caption">structured report</text>
+    <rect x="30" y="470" width="166" height="70" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="44" y="501" class="title">LLM</text>
+    <text x="44" y="523" class="caption">bring your key</text>
+    <rect x="220" y="470" width="166" height="70" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="234" y="501" class="title">Embed code</text>
+    <text x="234" y="523" class="caption">on GitHub push</text>
+    <rect x="410" y="470" width="166" height="70" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="424" y="501" class="title">ChromaDB</text>
+    <text x="424" y="523" class="caption">code vectors</text>
+    <rect x="600" y="470" width="166" height="70" rx="8" fill="#201e1c" stroke="#3d3935" stroke-width="1.5" />
+    <text x="614" y="501" class="title">OpenSearch</text>
+    <text x="614" y="523" class="caption">log history</text>
+    <polyline points="230,60 270,60" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="360,96 360,112 113,112 113,160" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="450,60 984,60 984,505 766,505" fill="none" stroke="#8a8479" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#head)" />
+    <polyline points="196,198 220,198" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="386,198 410,198" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="576,198 600,198" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="766,198 790,198" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="930,236 930,332" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="790,370 766,370" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="600,370 576,370" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="410,370 386,370" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="220,370 196,370" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="113,332 113,275 812,275 812,332" fill="none" stroke="#f0884a" stroke-width="2"  marker-end="url(#head-accent)" />
+    <polyline points="113,408 113,470" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="493,408 493,470" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="683,408 683,470" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <polyline points="386,505 410,505" fill="none" stroke="#8a8479" stroke-width="2"  marker-end="url(#head)" />
+    <text x="718" y="50" text-anchor="middle" class="label note">OpenSearch reads the same topic</text>
+    <text x="922" y="290" text-anchor="end" class="label note">signed link</text>
+    <text x="460" y="267" text-anchor="middle" class="label note">report, streamed over SSE</text>
+</svg>

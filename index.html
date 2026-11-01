@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gokul Ajith V — Backend Engineer</title>
+    <meta
+      name="description"
+      content="Backend engineer who builds production grade backend systems and LLM agents. 2 years at Comcast building event-driven microservices with Python, Clojure, Kafka, Elasticsearch and PostgreSQL."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gokul Ajith V — Backend Engineer" />
+    <meta
+      property="og:description"
+      content="Backend engineer who builds production grade backend systems and LLM agents. 2 years at Comcast building event-driven microservices with Python, Clojure, Kafka, Elasticsearch and PostgreSQL."
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    />
+
+    <!-- Runs before first paint so a dark-mode visitor never sees a light flash. -->
+    <script>
+      ;(function () {
+        var stored = null
+        try {
+          stored = localStorage.getItem('theme')
+        } catch (e) {}
+        var dark = stored ? stored === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
+        document.documentElement.classList.toggle('dark', dark)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
